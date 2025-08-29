@@ -30,8 +30,8 @@ Before you begin, ensure you have the following installed:
 
     Clone the repository:
 
-    git clone <your-repository-url>
-    cd <your-project-directory>
+    git clone https://github.com/adityakamalsharma/Fast_app.git
+    cd Fast_app
 
     Create and activate a virtual environment:
 
