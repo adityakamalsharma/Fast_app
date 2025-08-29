@@ -84,4 +84,3 @@ For simplicity, all the code is contained within a single file, main.py.
 
 * main.py: This file contains the entire FastAPI application, including the Pydantic models for data validation, the SQLAlchemy models for database schema, and all the API endpoints for authentication and user data.
 
-To understand the internal logic and workflow, please refer to the auth_flow.txt and auth_guide.md files, which explain the data flow and the step-by-step authentication process in detail.
