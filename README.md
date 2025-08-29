@@ -12,8 +12,6 @@ Features
 
     Dependency Injection: Utilize FastAPI's dependency injection system to manage database sessions and user authentication.
 
-    ```
-    ---
     
 
 ## Prerequisites
@@ -62,7 +60,7 @@ The application can be run using uvicorn, a lightning-fast ASGI server.
     The --reload flag will automatically restart the server whenever you make changes to the code.
 
     Access the API Documentation:
-    Once the server is running, you can access the interactive API documentation (provided by FastAPI) at http://127.0.0.1:8000/docs.
+    Once the server is running, you can access the interactive API documentation (provided by FastAPI) at http://127.0.0.1:8000/docs.  
 
 
 ---
