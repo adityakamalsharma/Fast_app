@@ -57,43 +57,11 @@ The application can be run using uvicorn, a lightning-fast ASGI server.
 
 API Endpoints
 
-Endpoint
-	
-
-Method
-	
-
-Description
-
-/register
-	
-
-POST
-	
-
-Register a new user.
-
-/token
-	
-
-POST
-	
-
-Authenticate a user and get an access token.
-
-/users/me
-	
-
-GET
-	
-
-Get the current authenticated user's profile.
-
-/users/me/items
-	
-
-GET
-	
+Endpoint	Method	Description
+/register	POST	Register a new user.
+/token	POST	Authenticate a user and get an access token.
+/users/me	GET	Get the current authenticated user's profile.
+/users/me/items	GET	Get a list of items owned by the current user.
 
 Get a list of items owned by the current user. (Example)
 Project Structure
