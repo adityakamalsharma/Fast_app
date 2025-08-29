@@ -73,7 +73,7 @@ The API has three main endpoints that manage the user authentication flow:
 
 * POST /register: New users can create an account by sending a POST request to this endpoint with their username, email, full name, and password. The password is then securely hashed and stored in the database.
 
-  * POST /token: Existing users can get an access token by sending a POST request with their username and password. This endpoint validates the credentials and returns a signed JSON Web Token (JWT).
+* POST /token: Existing users can get an access token by sending a POST request with their username and password. This endpoint validates the credentials and returns a signed JSON Web Token (JWT).
 
 *  GET /users/me: This is a protected endpoint. To access it, a user must provide a valid JWT in the Authorization header. This endpoint decodes the token, authenticates the user, and returns their profile information.
 ---
