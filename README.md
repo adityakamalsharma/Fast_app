@@ -40,7 +40,7 @@ Before you begin, ensure you have the following installed:
     source venv/bin/activate
 
     # On Windows
-    py -m venv venv
+    python -m venv venv
     venv\Scripts\activate
 
     Install the dependencies:
